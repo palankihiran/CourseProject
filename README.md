@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-In this project, we have developed a sentiment analysis model for restaurant reviews using machine learning. We utilized restaurant reviews from both TripAdvisor and Google to build the model. The purpose of this project is to categorize restaurant reviews into three sentiment categories: Negative, Neutral, and Positive. While restaurant ratings provide a high-level summary, sentiment analysis allows us to gain deeper insights into customer feedback by understanding the sentiment behind the ratings.
+In this project, I have developed a sentiment analysis model for restaurant reviews using machine learning. I utilized restaurant reviews from both TripAdvisor and Google to build the model. The purpose of this project is to categorize restaurant reviews into three sentiment categories: Negative, Neutral, and Positive. While restaurant ratings provide a high-level summary, sentiment analysis allows us to gain deeper insights into customer feedback by understanding the sentiment behind the ratings.
 
 ## Libraries Used
 
@@ -25,14 +25,14 @@ We used two datasets for this project:
 
 ## Data Preprocessing
 
-Before building the sentiment analysis model, we performed data preprocessing, which included the following steps:
+Before building the sentiment analysis model, I performed data preprocessing, which included the following steps:
 
 - Checked for missing values in both datasets and removed rows with missing data.
 - Calculated summary statistics for ratings in both datasets.
 
 ## Data Visualization
 
-We visualized the data to gain a better understanding and discover meaningful insights:
+I visualized the data to gain a better understanding and discover meaningful insights:
 
 - Plotted the distribution of ratings for TripAdvisor and Google Review.
 - Analyzed the distribution of ratings by location for TripAdvisor and Google Reviews.
@@ -55,7 +55,7 @@ The sentiment analysis process involves the following steps:
 
 ## Model Deployment
 
-We saved the trained TF-IDF vectorizer and the sentiment analysis model using the pickle library. This allows you to deploy the model and make predictions on new restaurant reviews.
+I saved the trained TF-IDF vectorizer and the sentiment analysis model using the pickle library. This allows you to deploy the model and make predictions on new restaurant reviews.
 
 ## How to Make Predictions Using the Model
 
@@ -126,4 +126,3 @@ for category, prob in probabilities.items():
 5. You can replace `user_input` with your own restaurant review text to make predictions.
 
 This concludes the setup and usage of the sentiment analysis model for restaurant reviews. Feel free to use this model to analyze the sentiment of new reviews and gain insights into customer feedback.
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
