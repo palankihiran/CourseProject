@@ -17,7 +17,7 @@ The following Python libraries were used in this project:
 
 ## Data Sources
 
-We used two datasets for this project:
+I used two datasets for this project:
 
 1. **TripAdvisor Data:** Contains restaurant reviews from TripAdvisor, including information such as author, title, review, rating, dates, restaurant, and location.
 
