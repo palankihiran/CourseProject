@@ -51,7 +51,7 @@ The sentiment analysis process involves the following steps:
 
 4. Trained a Multinomial Logistic Regression model using TF-IDF vectorization.
 
-5. Evaluated the model's performance, achieving an accuracy of approximately 86%.
+5. Evaluated the model's performance.
 
 ## Model Deployment
 
