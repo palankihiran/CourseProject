@@ -3,11 +3,11 @@
 
 ## Project Overview
 
-In this project, I have developed a sentiment analysis model for restaurant reviews using machine learning. I utilized restaurant reviews from both TripAdvisor and Google to build the model. The purpose of this project is to categorize restaurant reviews into three sentiment categories: Negative, Neutral, and Positive. While restaurant ratings provide a high-level summary, sentiment analysis allows us to gain deeper insights into customer feedback by understanding the sentiment behind the ratings.
+In this project, I have developed a sentiment analysis model for restaurant reviews using machine learning. I've utilized restaurant reviews from both TripAdvisor and Google to build the model. The purpose of this project is to categorize restaurant reviews into three sentiment categories: Negative, Neutral, and Positive. While restaurant ratings provide a high-level summary, sentiment analysis allows us to gain deeper insights into customer feedback by understanding the sentiment behind the ratings.
 
 ## Libraries Used
 
-The following Python libraries were used in this project:
+The following Python libraries are used in this project:
 
 - **Pandas:** For reading and handling data.
 - **NumPy:** For data manipulation and related operations.
@@ -17,7 +17,7 @@ The following Python libraries were used in this project:
 
 ## Data Sources
 
-I used two datasets for this project:
+Two datasets are used for this project:
 
 1. **TripAdvisor Data:** Contains restaurant reviews from TripAdvisor, including information such as author, title, review, rating, dates, restaurant, and location.
 
@@ -25,14 +25,14 @@ I used two datasets for this project:
 
 ## Data Preprocessing
 
-Before building the sentiment analysis model, I performed data preprocessing, which included the following steps:
+Before building the sentiment analysis model, data preprocessing is performed, which comprised of the following steps:
 
 - Checked for missing values in both datasets and removed rows with missing data.
 - Calculated summary statistics for ratings in both datasets.
 
 ## Data Visualization
 
-I visualized the data to gain a better understanding and discover meaningful insights:
+The data is visualized to gain a better understanding and discover meaningful insights:
 
 - Plotted the distribution of ratings for TripAdvisor and Google Review.
 - Analyzed the distribution of ratings by location for TripAdvisor and Google Reviews.
@@ -55,7 +55,7 @@ The sentiment analysis process involves the following steps:
 
 ## Model Deployment
 
-I saved the trained TF-IDF vectorizer and the sentiment analysis model using the pickle library. This allows you to deploy the model and make predictions on new restaurant reviews.
+I've saved the trained TF-IDF vectorizer and the sentiment analysis model using the pickle library. This allows you to deploy the model and make predictions on new restaurant reviews.
 
 ## How to Make Predictions Using the Model
 
