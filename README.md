@@ -5,7 +5,7 @@
 
 In this project, I have developed a sentiment analysis model for restaurant reviews using machine learning. I've utilized restaurant reviews from both TripAdvisor and Google to build the model. The purpose of this project is to categorize restaurant reviews into three sentiment categories: Negative, Neutral, and Positive. While restaurant ratings provide a high-level summary, sentiment analysis allows us to gain deeper insights into customer feedback by understanding the sentiment behind the ratings.
 
-A detailed software documentation for this project is contained within the document titled "Course Project's Software Documentation.pdf", that's checked into this source code repository. Within this document, a Youtube link is provided to the tutorial presentation.
+A detailed software documentation for this project is contained within the document titled "Course Project's Software Documentation.pdf", that's checked into this source code repository. Within this document, a Youtube link is provided to the video tutorial presentation.
 
 ## Libraries Used
 
